@@ -1,0 +1,79 @@
+\documentclass{article}
+\usepackage{amsmath, amsthm, amsfonts, amssymb, geometry, natbib}
+
+% Set margin to 2.5cm on all sides
+\geometry{margin=2.5cm}
+
+\title{LaTeX Document}
+\author{Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Introduction}
+This is a brief introduction to the exercise set.
+
+\subsection{Formatting Text}
+Here are examples of: \textbf{Bold text} and \textit{italic text}.
+
+\section{Mathematical Notation}
+Here is an example equation:
+\begin{equation}
+    E = mc^2
+\end{equation}
+
+\section{BibTeX}
+Here is a reference using BibTeX \citep{lamport1994latex}.
+
+\section{Table Example}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        Column 1 & Column 2 \\
+        \hline
+        Row 1 & Cell 1\\
+        Row 2 & Cell 2\\
+        \hline
+    \end{tabular}
+    \caption{Example Table}
+    \label{tab:example}
+\end{table}
+
+\section{Font families}
+\subsection{Serif}
+This is a serif font.
+\subsection{Sans-serif}
+This is a \textsf{sans-serif} font.
+\subsection{Mono-spaced}
+This is a \texttt{mono-spaced} font.
+
+\section{Rulers}
+\hrulefill
+
+\section{Spaces}
+\subsection{Horizontal Spaces}
+Some text.\hspace{2cm}with horizontal space.
+\subsection{Vertical Spaces}
+Some text with vertical space.
+\vspace{1cm}
+Here is some text after a vertical space.
+
+\section{Theorems and Proofs}
+\subsection{Pythagorean Theorem}
+\begin{theorem}
+In a right triangle, the square of the length of the hypotenuse ($c$) is equal to the sum of the squares of the lengths of the other two sides ($a$ and $b$).
+\end{theorem}
+\begin{proof}
+This is a proof of the Pythagorean theorem.
+\end{proof}
+
+% Example BibTeX reference
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
