@@ -1,0 +1,5 @@
+46749ad (HEAD -> main, origin/main, origin/HEAD) Initial LaTeX and BibTeX
+bd2a6b3 Initial XML
+bd291f3 Initial JS
+75955ca Initial Styles CSS
+2d4c44d Initial HTML
