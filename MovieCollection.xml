@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MovieCollection>
+    <!-- List of movies -->
+    <Movie>
+        <!-- First movie -->
+        <Title>Harry Potter and the Philosopher's Stone</Title>
+        <Author>Joanne Kathleen Rowling</Author>
+        <PublicationYear>2001</PublicationYear>
+        <Description>Featuring vivid descriptions and an imaginative story line, it followed the
+            adventures of the unlikely hero Harry Potter,
+            a lonely orphan who discovers that he is actually a wizard and enrolls in the Hogwarts
+            School of Witchcraft and Wizardry.</Description>
+    </Movie>
+    <Movie>
+        <!-- Second movie -->
+        <Title>Harry Potter and the Chamber of Secrets</Title>
+        <Author>Joanne Kathleen Rowling</Author>
+        <PublicationYear>2002</PublicationYear>
+        <Description>The second instalment of boy wizard Harry Potter's adventures at Hogwarts
+            .
+                        A mysterious elf tells Harry to expect trouble during
+            
+                        his second year at Hogwarts,
+                        but nothing can prepare him for trees that fight back, spiders that talk
+                        and deadly warnings written in blood on
+                        the walls of the school</Description>
+    </Movie>
+    <Movie>
+        <!-- Third movie -->
+        <Title>Harry Potter and the Prisoner of Azkaban</Title>
+        <Author>Joanne Kathleen Rowling</Author>
+        <PublicationYear>2004</PublicationYear>
+        <Description><![CDATA[The third installment of the Harry Potter series sees Harry returning to Hogwarts for his third year, where he confronts the escaped prisoner Sirius Black while uncovering the truth about his parents' past.]]></Description>
+    </Movie>
+    <!-- End of movie list -->
+</MovieCollection>
